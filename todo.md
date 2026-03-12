@@ -36,13 +36,13 @@ Criterio “done”:
 
 ## Fase 2 — Livelli di difficoltà
 
-- [ ] Implementa almeno 3 livelli di difficoltà:
+- [x] Implementa almeno 3 livelli di difficoltà:
   - Easy
   - Medium
   - Hard
-- [ ] Associa a ogni livello un numero massimo di tentativi.
-- [ ] Valida l’input del livello scelto.
-- [ ] Gestisci il caso in cui l’utente inserisce un valore non valido.
+- [x] Associa a ogni livello un numero massimo di tentativi.
+- [x] Valida l’input del livello scelto.
+- [x] Gestisci il caso in cui l’utente inserisce un valore non valido.
 
 Esempio logico:
 
@@ -58,10 +58,10 @@ Criterio “done”:
 
 ## Fase 3 — Generazione numero segreto
 
-- [ ] Genera un numero casuale nel range deciso.
-- [ ] Conserva il numero in una variabile dedicata.
-- [ ] Assicurati che il numero venga generato una sola volta per partita.
-- [ ] Verifica mentalmente il flusso: il numero non deve cambiare a ogni tentativo.
+- [x] Genera un numero casuale nel range deciso.
+- [x] Conserva il numero in una variabile dedicata.
+- [x] Assicurati che il numero venga generato una sola volta per partita.
+- [x] Verifica mentalmente il flusso: il numero non deve cambiare a ogni tentativo.
 
 Criterio “done”:
 
@@ -71,11 +71,11 @@ Criterio “done”:
 
 ## Fase 4 — Input del giocatore
 
-- [ ] Chiedi all’utente di inserire un tentativo.
-- [ ] Converti l’input in intero.
-- [ ] Gestisci input non numerici senza far crashare il programma.
-- [ ] Controlla che il numero inserito sia nel range consentito.
-- [ ] Se il valore è fuori range, mostra un messaggio chiaro e non contare il tentativo (oppure decidi esplicitamente di contarlo).
+- [x] Chiedi all’utente di inserire un tentativo.
+- [x] Converti l’input in intero.
+- [x] Gestisci input non numerici senza far crashare il programma.
+- [x] Controlla che il numero inserito sia nel range consentito.
+- [x] Se il valore è fuori range, mostra un messaggio chiaro e non contare il tentativo (oppure decidi esplicitamente di contarlo).
 
 Criterio “done”:
 
@@ -85,11 +85,11 @@ Criterio “done”:
 
 ## Fase 5 — Logica del confronto
 
-- [ ] Confronta il numero inserito con il numero segreto.
-- [ ] Se il numero è troppo basso, mostra un messaggio tipo “Too low”.
-- [ ] Se il numero è troppo alto, mostra un messaggio tipo “Too high”.
-- [ ] Se il numero è corretto, mostra un messaggio di vittoria.
-- [ ] Interrompi il gioco appena il giocatore indovina.
+- [x] Confronta il numero inserito con il numero segreto.
+- [x] Se il numero è troppo basso, mostra un messaggio tipo “Too low”.
+- [x] Se il numero è troppo alto, mostra un messaggio tipo “Too high”.
+- [x] Se il numero è corretto, mostra un messaggio di vittoria.
+- [x] Interrompi il gioco appena il giocatore indovina.
 
 Criterio “done”:
 
