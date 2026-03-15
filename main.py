@@ -11,7 +11,8 @@ def main():
         return
 
     level_map = {"1": 10, "2": 5, "3": 3}
-    max_attempts = level_map[difficulty]
+    initial_attempts = level_map[difficulty]
+    max_attempts = initial_attempts
 
     print(f"You selected difficulty level {difficulty}.")
 
@@ -35,7 +36,10 @@ def main():
         elif guess > number_to_guess:
             print("Too high! Try again.")
         else:
-            print("Congratulations! You guessed the number!")
+            used_attempts = initial_attempts - max_attempts + 1
+            print(
+                f"Congratulations! You guessed the number in {used_attempts} attempts."
+            )
             break
 
         max_attempts -= 1

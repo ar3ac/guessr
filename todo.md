@@ -113,12 +113,12 @@ Criterio “done”:
 
 ## Fase 7 — Fine partita
 
-- [ ] Gestisci i due scenari finali:
+- [x] Gestisci i due scenari finali:
   - vittoria
   - sconfitta
-- [ ] Mostra un messaggio finale pulito e leggibile.
-- [ ] Indica quanti tentativi sono stati usati per vincere, se applicabile.
-- [ ] Rivela sempre il numero corretto in caso di sconfitta.
+- [x] Mostra un messaggio finale pulito e leggibile.
+- [x] Indica quanti tentativi sono stati usati per vincere, se applicabile.
+- [x] Rivela sempre il numero corretto in caso di sconfitta.
 
 Criterio “done”:
 
