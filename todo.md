@@ -190,11 +190,11 @@ Criterio “done”:
 
 ## Fase 12 — Chiusura progetto
 
-- [ ] Fai un test finale completo.
-- [ ] Controlla che il flusso vittoria/sconfitta/replay sia corretto.
-- [ ] Esegui `git add .`
-- [ ] Esegui un commit finale con un messaggio chiaro.
-- [ ] Fai push su GitHub.
+- [x] Fai un test finale completo.
+- [x] Controlla che il flusso vittoria/sconfitta/replay sia corretto.
+- [x] Esegui `git add .`
+- [x] Esegui un commit finale con un messaggio chiaro.
+- [x] Fai push su GitHub.
 
 Esempio commit finale:
 
