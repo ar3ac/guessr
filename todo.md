@@ -128,11 +128,11 @@ Criterio “done”:
 
 ## Fase 8 — Giocare di nuovo
 
-- [ ] Chiedi all’utente se vuole fare un’altra partita.
-- [ ] Accetta input tipo `y/n` oppure `yes/no`.
-- [ ] Se la risposta è positiva, resetta correttamente tutte le variabili della partita.
-- [ ] Se la risposta è negativa, chiudi il programma con un messaggio finale.
-- [ ] Gestisci input non validi anche qui.
+- [x] Chiedi all’utente se vuole fare un’altra partita.
+- [x] Accetta input tipo `y/n` oppure `yes/no`.
+- [x] Se la risposta è positiva, resetta correttamente tutte le variabili della partita.
+- [x] Se la risposta è negativa, chiudi il programma con un messaggio finale.
+- [x] Gestisci input non validi anche qui.
 
 Criterio “done”:
 

@@ -49,6 +49,15 @@ def main():
         print("\nThe attempts are over!")
         print(f"The number to guess was: {number_to_guess}")
 
+    # wanna play again?
+    play_again = input("\nDo you want to play again? (y/n): ")
+    if play_again.lower() == "y" or play_again.lower() == "yes":
+        main()
+    elif play_again.lower() == "n" or play_again.lower() == "no":
+        print("Thanks for playing! Goodbye!")
+    else:
+        print("Invalid input. Exiting the game. Goodbye!")
+
 
 if __name__ == "__main__":
     main()
