@@ -142,15 +142,15 @@ Criterio “done”:
 
 ## Fase 9 — Pulizia del codice
 
-- [ ] Controlla se ci sono parti ripetute e prova a spostarle in funzioni.
-- [ ] Dai nomi chiari alle variabili.
-- [ ] Evita blocchi troppo lunghi nel main.
-- [ ] Valuta di creare funzioni tipo:
+- [x] Controlla se ci sono parti ripetute e prova a spostarle in funzioni.
+- [x] Dai nomi chiari alle variabili.
+- [x] Evita blocchi troppo lunghi nel main.
+- [x] Crea funzioni tipo:
   - `choose_difficulty()`
   - `generate_secret_number()`
   - `get_user_guess()`
   - `play_game()`
-- [ ] Rimuovi eventuali print di debug.
+- [x] Rimuovi eventuali print di debug.
 
 Criterio “done”:
 
@@ -160,12 +160,12 @@ Criterio “done”:
 
 ## Fase 10 — Edge cases
 
-- [ ] Input vuoto.
-- [ ] Input testuale invece di un numero.
-- [ ] Numero fuori range.
-- [ ] Selezione difficoltà non valida.
-- [ ] Replay con risposta non valida.
-- [ ] Verifica che il programma non mostri traceback all’utente nei casi normali.
+- [x] Input vuoto.
+- [x] Input testuale invece di un numero.
+- [x] Numero fuori range.
+- [x] Selezione difficoltà non valida.
+- [x] Replay con risposta non valida.
+- [x] Verifica che il programma non mostri traceback all’utente nei casi normali.
 
 Criterio “done”:
 
