@@ -99,11 +99,11 @@ Criterio “done”:
 
 ## Fase 6 — Conteggio tentativi
 
-- [ ] Tieni traccia dei tentativi usati.
-- [ ] Riduci i tentativi rimasti dopo ogni input valido.
-- [ ] Mostra quanti tentativi restano dopo ogni errore.
-- [ ] Quando i tentativi finiscono, il gioco deve terminare.
-- [ ] Alla sconfitta, mostra il numero corretto.
+- [x] Tieni traccia dei tentativi usati.
+- [x] Riduci i tentativi rimasti dopo ogni input valido.
+- [x] Mostra quanti tentativi restano dopo ogni errore.
+- [x] Quando i tentativi finiscono, il gioco deve terminare.
+- [x] Alla sconfitta, mostra il numero corretto.
 
 Criterio “done”:
 

@@ -14,9 +14,10 @@ def main():
     max_attempts = level_map[difficulty]
 
     print(f"You selected difficulty level {difficulty}.")
-    print(f"You have {max_attempts} attempts. Let's start the game!")
 
     while max_attempts > 0:
+        print(f"You have {max_attempts} attempts.")
+
         guess_input = input("Enter your guess: ")
 
         if not guess_input.isdigit():
@@ -40,6 +41,9 @@ def main():
         max_attempts -= 1
         # print(f"You guessed: {guess}")  # Placeholder per le prossime fasi
         # break  # Interrompiamo temporaneamente per evitare loop infiniti
+    else:  # Questo blocco viene eseguito solo se il ciclo while finisce senza un 'break'
+        print("\nThe attempts are over!")
+        print(f"The number to guess was: {number_to_guess}")
 
 
 if __name__ == "__main__":
