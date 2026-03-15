@@ -3,6 +3,7 @@
 A classic command-line Number Guessing Game built with Python. The computer selects a random number between 1 and 100, and your goal is to guess it within a limited number of attempts based on the chosen difficulty level.
 
 More accurate than a crystal ball, equally useless in real life.
+
 ( a roadmap project : https://roadmap.sh/projects/number-guessing-game )
 
 ## Features
