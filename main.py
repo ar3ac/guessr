@@ -49,11 +49,11 @@ def play_round():
             print(
                 f"Congratulations! You guessed the number in {used_attempts} attempts."
             )
-            return  # Esce dalla funzione play_round dopo la vittoria
+            return  # Exit the play_round function after winning
 
         max_attempts -= 1
 
-    # Questo codice viene raggiunto solo se il ciclo while termina (sconfitta)
+    # This code is reached only if the while loop ends (defeat)
     print("\nThe attempts are over!")
     print(f"The number to guess was: {number_to_guess}")
 
@@ -67,10 +67,10 @@ def main():
         while True:
             play_again = input("\nDo you want to play again? (y/n): ").lower()
             if play_again in ["y", "yes"]:
-                break  # Esce dal loop interno, ricomincia il loop esterno (nuova partita)
+                break  # Exit the inner loop, restart the outer loop (new game)
             elif play_again in ["n", "no"]:
                 print("Thanks for playing! Goodbye!")
-                return  # Esce dalla funzione main, chiudendo il programma
+                return  # Exit the main function, closing the program
             else:
                 print("Invalid input. Please type 'y' or 'n'.")
 

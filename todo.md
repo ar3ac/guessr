@@ -175,12 +175,12 @@ Criterio “done”:
 
 ## Fase 11 — README
 
-- [ ] Scrivi una breve descrizione del progetto.
-- [ ] Spiega come eseguire il programma.
-- [ ] Elenca le funzionalità.
-- [ ] Inserisci almeno un esempio di sessione di gioco.
-- [ ] Aggiungi una sezione “What I practiced” con i concetti imparati.
-- [ ] Aggiungi una sezione “Possible improvements”.
+- [x] Scrivi una breve descrizione del progetto.
+- [x] Spiega come eseguire il programma.
+- [x] Elenca le funzionalità.
+- [x] Inserisci almeno un esempio di sessione di gioco.
+- [x] Aggiungi una sezione “What I practiced” con i concetti imparati.
+- [x] Aggiungi una sezione “Possible improvements”.
 
 Criterio “done”:
 
